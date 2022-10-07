@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="background2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="background2.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.Main" />
       <module name="TicTacToe.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="background2.*" />
+          <option name="PATTERN" value="background.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

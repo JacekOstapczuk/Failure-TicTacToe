@@ -1,6 +1,5 @@
-package background2;
+package background;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 

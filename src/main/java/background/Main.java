@@ -1,4 +1,4 @@
-package background2;
+package background;
 
 public class Main {
 
