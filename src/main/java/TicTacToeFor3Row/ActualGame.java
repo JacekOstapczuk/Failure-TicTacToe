@@ -31,53 +31,47 @@ public class ActualGame {
 
     WiningCalculation winingCalculation = new WiningCalculation();
 
-
-
-    public void actualGame() {
-        for (int i = 0; i < 9; i++) {
-            if (i % 2 == 0) {
-                players.announcementForPlayerX();
-                int givenNumber = getInt();
-                try {
-                    gameMap = gameRun.numberGettingAndVerification(gameMap, givenNumber, "X");
-
-                } catch (BadNumberException e) {
-                    i--;
-                }
-               visual.draw(gameMap);
-                try {
-                    winingCalculation.winingnSign(gameMap);
-                } catch (GameEndingByWiningException e){
-                    System.out.println( e + "X");
-                    break;
-                }
-            } else {
-                players.announcementForPlayerO();
-                int givenNumber = getInt();
-                try {
-                    gameMap = gameRun.numberGettingAndVerification(gameMap, givenNumber,"O");
-                } catch (BadNumberException e) {
-                i--;
-                }
-               visual.draw(gameMap);
-              try {
-                  winingCalculation.winingnSign(gameMap);
-              } catch (GameEndingByWiningException e){
-                  System.out.println( e + "O");
-                  break;
-              }
-            }
-        if (i==8) {
-            System.out.println("Gra zakończyła się remisem");
-        }
-        }
-        }
-
-
     public static int getInt() {
         return new Scanner(System.in).nextInt();
     }
+
+    public void managePlayers() {
+        String  witchXOSign ="";
+
+        for (int i = 0; i < 9; i++) {
+            if (i % 2 == 0) {
+                players.announcementForPlayerX();
+                witchXOSign = players.signForPlayerX();
+            } else {
+                players.announcementForPlayerO();
+                 witchXOSign = players.signForPlayerO();
+            }
+                int givenNumber = getInt();
+                actualGame(givenNumber, witchXOSign);
+            }
+            }
+
+
+
+
+    public void actualGame(int givenNumber, String witchXOSign) {
+
+        try {
+            gameMap = gameRun.numberGettingAndVerification(gameMap, givenNumber, witchXOSign);
+
+        } catch (BadNumberException e) {
+        //    i--;
+        }
+        visual.draw(gameMap);
+        try {
+            winingCalculation.winingnSign(gameMap);
+        } catch (GameEndingByWiningException e) {
+            System.out.println(e + witchXOSign);
+        }
+    }
+
 }
+
 
 
 
