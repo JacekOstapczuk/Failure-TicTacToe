@@ -36,7 +36,7 @@ public class ActualGame {
     }
 
     public void managePlayers() {
-        String  witchXOSign ="";
+        String witchXOSign = "";
 
         for (int i = 0; i < 9; i++) {
             if (i % 2 == 0) {
@@ -44,29 +44,37 @@ public class ActualGame {
                 witchXOSign = players.signForPlayerX();
             } else {
                 players.announcementForPlayerO();
-                 witchXOSign = players.signForPlayerO();
+                witchXOSign = players.signForPlayerO();
             }
-                int givenNumber = getInt();
+            int givenNumber = getInt();
+
+            try {
                 actualGame(givenNumber, witchXOSign);
+            } catch (BadNumberException e ) {
+                i--;
+            } catch (GameEndingByWiningException e) {
+                break;
             }
-            }
+        }
+    }
 
 
 
 
-    public void actualGame(int givenNumber, String witchXOSign) {
+    public void actualGame  (int givenNumber, String witchXOSign)throws  BadNumberException, GameEndingByWiningException {
 
         try {
             gameMap = gameRun.numberGettingAndVerification(gameMap, givenNumber, witchXOSign);
+        } catch (BadNumberException e ){
+                throw new BadNumberException();
+            }
 
-        } catch (BadNumberException e) {
-        //    i--;
-        }
         visual.draw(gameMap);
         try {
             winingCalculation.winingnSign(gameMap);
         } catch (GameEndingByWiningException e) {
             System.out.println(e + witchXOSign);
+            throw new GameEndingByWiningException();
         }
     }
 
