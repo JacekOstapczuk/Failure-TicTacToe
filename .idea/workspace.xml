@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="9.0  Game">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="9.1.1  Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/ActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/ActualGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/BadNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/BadNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/GameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/GameRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/Visual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Visual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/background/WiningCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/WiningCalculation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/programowanie/KursKodilla/TicTacToe/src/main/java/TicTacToeFor3RowSimplified",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.background2.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programowanie\KursKodilla\TicTacToe\src\main\java\TicTacToeFor3RowSimplified" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TicTacToeFor3RowSimplified" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="background.Main" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeFor3Row.Main" />
       <module name="TicTacToe.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="background.*" />
+          <option name="PATTERN" value="TicTacToeFor3Row.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +81,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="background.Main" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeFor3Row.Main" />
       <module name="TicTacToe.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="background.*" />
+          <option name="PATTERN" value="TicTacToeFor3Row.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToeFor3RowSimplified.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToeFor3RowSimplified.Main" />
+      <module name="TicTacToe.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TicTacToeFor3RowSimplified.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.background2.Main" />
+        <item itemvalue="Application.TicTacToeFor3RowSimplified.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,7 +126,9 @@
       <workItem from="1664868751611" duration="4478000" />
       <workItem from="1664953802177" duration="5743000" />
       <workItem from="1665068962091" duration="17934000" />
-      <workItem from="1665159471381" duration="4190000" />
+      <workItem from="1665159471381" duration="5699000" />
+      <workItem from="1665170804527" duration="968000" />
+      <workItem from="1665212300297" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="9.0  Game">
       <created>1664544628560</created>
@@ -115,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664545088082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="9.1  Game">
+      <created>1665167007769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665167007769</updated>
+    </task>
+    <task id="LOCAL-00004" summary="9.1.1  Game">
+      <created>1665167055773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665167055773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="9.0  Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.0  Game" />
+    <MESSAGE value="9.1  Game" />
+    <MESSAGE value="9.1.1  Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.1.1  Game" />
   </component>
 </project>

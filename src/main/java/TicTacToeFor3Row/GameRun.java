@@ -1,4 +1,6 @@
-package background;
+
+
+package TicTacToeFor3Row;
 
 import java.util.Map;
 import java.util.Scanner;
@@ -25,3 +27,5 @@ public class GameRun {
         return new Scanner(System.in).nextInt();
     }
 }
+
+

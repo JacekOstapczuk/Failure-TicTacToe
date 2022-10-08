@@ -1,4 +1,5 @@
-package background;
+
+package TicTacToeFor3Row;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,7 +45,12 @@ public class ActualGame {
                     i--;
                 }
                visual.draw(gameMap);
-                winingCalculation.winingnSign(gameMap);
+                try {
+                    winingCalculation.winingnSign(gameMap);
+                } catch (GameEndingByWiningException e){
+                    System.out.println( e + "X");
+                    break;
+                }
             } else {
                 players.announcementForPlayerO();
                 int givenNumber = getInt();
@@ -54,14 +60,24 @@ public class ActualGame {
                 i--;
                 }
                visual.draw(gameMap);
-                winingCalculation.winingnSign(gameMap);
+              try {
+                  winingCalculation.winingnSign(gameMap);
+              } catch (GameEndingByWiningException e){
+                  System.out.println( e + "O");
+                  break;
+              }
             }
+        if (i==8) {
+            System.out.println("Gra zakończyła się remisem");
         }
-    }
+        }
+        }
+
 
     public static int getInt() {
         return new Scanner(System.in).nextInt();
     }
-
 }
+
+
 

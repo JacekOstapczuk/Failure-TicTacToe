@@ -1,10 +1,12 @@
-package background;
+
+
+package TicTacToeFor3Row;
 
 import java.util.Map;
 
 public class WiningCalculation {
 
-    public void winingnSign (Map gameMap) {
+    public void winingnSign (Map gameMap) throws GameEndingByWiningException {
 
         String space1;
         if (gameMap.containsKey(1)) {
@@ -70,60 +72,88 @@ public class WiningCalculation {
         }
 
 
-        if (space9.equals("X") && space8.equals("X")  && space7.equals("X") )  {
-            System.out.println("X win!!!");
-        }
+
+          if (space9.equals("X") && space8.equals("X") && space7.equals("X")) {
+              throw new GameEndingByWiningException();
+          }
+
+
 
         if (space6.equals("X") && space5.equals("X")  && space4.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space3.equals("X") && space2.equals("X")  && space1.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space9.equals("X") && space6.equals("X")  && space3.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space8.equals("X") && space5.equals("X")  && space2.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space7.equals("X") && space4.equals("X")  && space1.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space9.equals("X") && space5.equals("X")  && space1.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space7.equals("X") && space5.equals("X")  && space1.equals("X") )  {
-            System.out.println("X win!!!");
+            throw new GameEndingByWiningException();
         }
 
 
 
 
         if (space9.equals("O") && space8.equals("O")  && space7.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
 
         if (space6.equals("O") && space5.equals("O")  && space4.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space3.equals("O") && space2.equals("O")  && space1.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space9.equals("O") && space6.equals("O")  && space3.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space8.equals("O") && space5.equals("O")  && space2.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space7.equals("O") && space4.equals("O")  && space1.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space9.equals("O") && space5.equals("O")  && space1.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
+
         if (space7.equals("O") && space5.equals("O")  && space1.equals("O") )  {
-            System.out.println("O win!!!");
+            throw new GameEndingByWiningException();
         }
+
 
     }
 }

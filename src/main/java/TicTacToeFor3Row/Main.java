@@ -1,4 +1,5 @@
-package background;
+
+package TicTacToeFor3Row;
 
 public class Main {
 
@@ -11,3 +12,4 @@ public class Main {
 
 
 }
+
