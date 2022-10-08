@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="9.1.4  Game rewriting for test">
-      <change afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/GameEndingByWiningException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicTacToe3Row/src/test/java/TicTacToeFor3Row/ActualGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="10.1  Game Testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/ActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/ActualGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/BadNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/BadNumberException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/GameEndingByWiningException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/GameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/GameRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/Visual.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Visual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3Row/WiningCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/WiningCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/ActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/ActualGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/BadNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/BadNumberException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/GameEndingByWiningException.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/GameEndingByWiningException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/GameRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/GameRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/Visual.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/Visual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToeFor3RowSimplified/WiningCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3RowSimplified/WiningCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToeFor3Row/ActualGameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/ActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/ActualGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/programowanie/KursKodilla/TicTacToe/src/main/java/TicTacToeFor3RowSimplified",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programowanie/KursKodilla/TicTacToe/src/main/java/TicTacToeFor3RowSimplified&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programowanie\KursKodilla\TicTacToe\src\main\java\TicTacToeFor3RowSimplified" />
@@ -87,7 +68,7 @@
       <recent name="TicTacToeFor3RowSimplified" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ActualGameTest.OWiningInLine (1)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTacToeFor3Row.Main" />
       <module name="TicTacToe.TicTacToe3Row.main" />
@@ -229,7 +210,8 @@
       <workItem from="1665170804527" duration="968000" />
       <workItem from="1665212300297" duration="7145000" />
       <workItem from="1665223041384" duration="7140000" />
-      <workItem from="1665234074077" duration="908000" />
+      <workItem from="1665234074077" duration="1732000" />
+      <workItem from="1665237597246" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="9.0  Game">
       <created>1664544628560</created>
@@ -287,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665224911230</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10.1  Game Testing">
+      <created>1665235013816</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665235013817</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +300,7 @@
     <MESSAGE value="9.1.2  Game" />
     <MESSAGE value="9.1.3  Game" />
     <MESSAGE value="9.1.4  Game rewriting for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.1.4  Game rewriting for test" />
+    <MESSAGE value="10.1  Game Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.1  Game Testing" />
   </component>
 </project>

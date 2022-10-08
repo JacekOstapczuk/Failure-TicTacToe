@@ -1,10 +1,7 @@
 
 package TicTacToeFor3Row;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 
 public class ActualGame {
 
@@ -28,14 +25,45 @@ public class ActualGame {
     Players players = new Players();
     GameRun gameRun = new GameRun();
     Visual visual = new Visual();
-
+    Random randomGenerator = new Random();
     WiningCalculation winingCalculation = new WiningCalculation();
 
     public static int getInt() {
         return new Scanner(System.in).nextInt();
     }
 
-    public void managePlayers() {
+
+    public void manage1Players() {
+        String witchXOSign = "";
+
+
+        for (int i = 0; i < 9; i++) {
+            int givenNumber;
+            if (i % 2 == 0) {
+                players.announcementForPlayerX();
+                witchXOSign = players.signForPlayerX();
+                 givenNumber = getInt();
+            } else {
+                witchXOSign = players.signForPlayerO();
+                givenNumber = randomGenerator.nextInt(10);;
+            }
+
+
+            try {
+                actualGame(givenNumber, witchXOSign);
+            } catch (BadNumberException e ) {
+                i--;
+            } catch (GameEndingByWiningException e) {
+                System.out.println(e.anoucment + witchXOSign);
+                break;
+            }
+        }
+    }
+
+
+
+
+    public void manage2Players() {
         String witchXOSign = "";
 
         for (int i = 0; i < 9; i++) {
@@ -58,8 +86,6 @@ public class ActualGame {
             }
         }
     }
-
-
 
 
     public Map<Integer,String > actualGame  (int givenNumber, String witchXOSign)throws  BadNumberException, GameEndingByWiningException {
