@@ -53,6 +53,7 @@ public class ActualGame {
             } catch (BadNumberException e ) {
                 i--;
             } catch (GameEndingByWiningException e) {
+                System.out.println(e.anoucment + witchXOSign);
                 break;
             }
         }
@@ -61,7 +62,7 @@ public class ActualGame {
 
 
 
-    public void actualGame  (int givenNumber, String witchXOSign)throws  BadNumberException, GameEndingByWiningException {
+    public Map<Integer,String > actualGame  (int givenNumber, String witchXOSign)throws  BadNumberException, GameEndingByWiningException {
 
         try {
             gameMap = gameRun.numberGettingAndVerification(gameMap, givenNumber, witchXOSign);
@@ -73,9 +74,8 @@ public class ActualGame {
         try {
             winingCalculation.winingnSign(gameMap);
         } catch (GameEndingByWiningException e) {
-            System.out.println(e + witchXOSign);
             throw new GameEndingByWiningException();
-        }
+        } return  gameMap;
     }
 
 }

@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/TicTacToe3Row" />
+            <option value="$PROJECT_DIR$/TicTacToe3Row/TicTacTow10Row" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,2 +1,5 @@
 rootProject.name = 'TicTacToe'
+include 'TicTacToe3Row'
+include 'TicTacToe3Row:TicTacTow10Row'
+findProject(':TicTacToe3Row:TicTacTow10Row')?.name = 'TicTacTow10Row'
 
