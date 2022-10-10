@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="10.1  Game Testing">
+    <list default="true" id="e0356916-a071-4485-9bdf-152b8c99d952" name="Changes" comment="10.2  Game PvP or PvC">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/ActualGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/ActualGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe3Row/src/main/java/TicTacToeFor3Row/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="TicTacToeFor3RowSimplified" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Gradle.ActualGameTest (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTacToeFor3Row.Main" />
       <module name="TicTacToe.TicTacToe3Row.main" />
@@ -185,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ActualGameTest.OWiningInLine (1)" />
         <item itemvalue="Gradle.ActualGameTest (1)" />
+        <item itemvalue="Gradle.ActualGameTest.OWiningInLine (1)" />
         <item itemvalue="Gradle.TicTacToe" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Gradle.ActualGameTest" />
@@ -211,7 +211,8 @@
       <workItem from="1665212300297" duration="7145000" />
       <workItem from="1665223041384" duration="7140000" />
       <workItem from="1665234074077" duration="1732000" />
-      <workItem from="1665237597246" duration="2510000" />
+      <workItem from="1665237597246" duration="2565000" />
+      <workItem from="1665423081126" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="9.0  Game">
       <created>1664544628560</created>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665235013817</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="10.2  Game PvP or PvC">
+      <created>1665240158637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665240158637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +309,7 @@
     <MESSAGE value="9.1.3  Game" />
     <MESSAGE value="9.1.4  Game rewriting for test" />
     <MESSAGE value="10.1  Game Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.1  Game Testing" />
+    <MESSAGE value="10.2  Game PvP or PvC" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.2  Game PvP or PvC" />
   </component>
 </project>
